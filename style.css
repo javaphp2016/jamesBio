@@ -76,11 +76,18 @@ h1 {
 
 
 .img_Container {
-    background: url(./assets/images/james.jpg) no-repeat;
-    width: 1280px;
-    height: 720px;
-    /* offset-x | offset-y | blur-radius | spread-radius | color */
-    box-shadow: inset -300px 0px 50px 0px black ;
+    box-shadow: inset -10px 0px 20px 10px black ;
+    max-width: 1080px;
+    width: 100%;
+    height: auto;
+}
+
+
+.img_Container img {
+    max-width: 100%;
+    width: auto;
+    position: relative;
+    z-index: -2;
 }
 
 
