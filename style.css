@@ -12,7 +12,7 @@
 
 /* Font Awesome - Social media*/
 .fa {
-    padding: 20px;
+    padding: 10px;
     font-size: 30px;
     width: 50px;
     text-align: center;
@@ -28,6 +28,8 @@
     background: #202020;
     color: white;
 }
+
+
 
 .fa-spotify {
     background: #202020;
@@ -88,17 +90,23 @@ h1 {
     width: auto;
     position: relative;
     z-index: -2;
+    filter: contrast(200%);
+    filter: saturate(130%);
 }
+
 
 
 footer {
     background-color: #202020;
-    height: 80px;
+    height: 120px;
     padding: 30px;
+    text-align: center;
 }
 
 
 .social {
-    display: block;
-    text-align: center;
+    display: inline-block;
+    border: 2px solid white;
+    border-radius: 70px;
+    padding: 15px 50px 15px 50px;
 }
